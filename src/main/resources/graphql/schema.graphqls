@@ -1,0 +1,17 @@
+type Query {
+    getAllDrivers(idDriver: ID): [Driver]
+    getDriverById(idDriver: ID!): Driver
+}
+
+type Driver {
+    idDriver: ID!
+    latitude: Float!
+    longitude: Float!
+    altitude: Float!
+    precision: Float!
+    timestamp: String!
+}
+
+type Mutation {
+    insertData(idDriver: ID!, latitude: Float!, longitude: Float!, altitude: Float!, precision: Float!, timestamp: String!) : Driver
+}
