@@ -8,7 +8,7 @@ CREATE TABLE driver_collect.driver_gps (
     precision float,
     timestamp timestamp,
     PRIMARY KEY (idDriver)
-) WITH comment = 'Q1. Quelle est la position d'un chauffeur ?';
+) WITH comment = 'Q1. Quelle est la position du chauffeur ?';
 
 
 

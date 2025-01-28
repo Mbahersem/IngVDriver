@@ -9,7 +9,7 @@ import org.springframework.data.cassandra.core.mapping.Table;
 import java.util.Date;
 import java.util.UUID;
 
-@Table("drvier_gps")
+@Table("driver_gps")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
